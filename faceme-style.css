@@ -1,0 +1,52 @@
+.faceme_r .faceme{
+	background: url(face-me.png) no-repeat scroll left top;
+	position: fixed;
+	top: 150px;
+	width: 30px;
+	height: 130px;
+	z-index: 5555;
+	cursor: pointer;
+	right: 0pt;
+}
+.faceme_l .faceme{
+	background: url(face-me.png) no-repeat scroll right top;
+	position: fixed;
+	top: 150px;
+	width: 30px;
+	height: 130px;
+	z-index: 5555;
+	cursor: pointer;
+	left: 0pt;
+	}
+.ili_left{
+	background:url(ilove.png) no-repeat top center;
+	position: fixed;
+	top: 267px;
+	width: 29px;
+	height: 10px;
+	z-index: 5993;
+	cursor: pointer;
+	left: 0pt;
+	}
+.ili_right{
+	background:url(ilove.png) no-repeat top center;
+	position: fixed;
+	top: 267px;
+	width: 29px;
+	height: 10px;
+	z-index: 5993;
+	cursor: pointer;
+	right: 0pt;
+	color:#FFF;
+	font-size:4px;
+	}
+
+.ili_right{visibility:hidden;}	
+.ili_left{visibility:hidden;}
+.faceme_r:hover .ili_right, .faceme_l:hover .ili_left{
+visibility:visible;
+}
+}
+.faceme_r .faceme, .faceme_l .faceme{
+_display:none;
+}
